@@ -59,7 +59,7 @@
 					// then set the parents width to the 
 					// childs width.
 					if($(this).width() > img_container$.width()){
-						$(this).width(img_container$.width() + "px");
+						$(this).css( { display : "block", height : "auto" , width : img_container$.width() + "px"} );
 					}
 				});
 			});
